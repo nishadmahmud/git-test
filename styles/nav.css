@@ -21,4 +21,13 @@ nav li a{
 
 nav li .dropdown {
    display: none;
+   position: absolute;
+   padding-left: 10px;
+}
+
+nav li:hover .dropdown {
+   display: block;
+   position: absolute;
+   background-color: lightblue;
+   margin-top: 10px;
 }
